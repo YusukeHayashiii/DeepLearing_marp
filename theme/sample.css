@@ -1,0 +1,33 @@
+/* @theme sample */
+
+@import 'default';
+
+section.title h1 {
+    color: #DDDDDD;
+    text-align: center;
+}
+
+section.semititle {
+    background-color: #EEEEEE;
+}
+
+section.semititle h1 {
+    color: black;
+    text-align: center;
+}
+
+section.slides {
+    background-color: #EEEEEE;
+}
+
+section.slides h1 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+section.slides h2 {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
