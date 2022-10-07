@@ -25,7 +25,7 @@ _footer: 'Photo by https://onl.bz/aHENREW'
 - ディープラーニングとは
 - 学習の仕方
 - 勾配消失問題
-- 勾配消失問題の解決
+- 勾配消失問題の解決(ゴール！)
 
 ---
 <!--
@@ -37,7 +37,7 @@ _class: semititle
 - **ディープラーニングとは**
 - 学習の仕方
 - 勾配消失問題
-- 勾配消失問題の解決
+- 勾配消失問題の解決(ゴール！)
 
 ---
 # ディープラーニングとは
@@ -104,7 +104,7 @@ _class: semititle
 - ディープラーニングとは
 - **学習の仕方**
 - 勾配消失問題
-- 勾配消失問題の解決
+- 勾配消失問題の解決(ゴール！)
 
 ---
 # 学習の流れ
@@ -221,7 +221,7 @@ _class: semititle
 - ディープラーニングとは
 - 学習の仕方
 - **勾配消失問題**
-- 勾配消失問題の解決
+- 勾配消失問題の解決(ゴール！)
 
 ---
 # 線形変換と非線形変換
@@ -238,7 +238,7 @@ _class: semititle
 ---
 # 勾配消失問題
 
-![bg fit right:40%](img/vanishing_gradient_problem.dio.png)
+![bg fit right:40%](img/vanishing_gradient_problem.drawio.svg)
 
 - 第1層のパラメータ更新のイメージ
     $a_{1new}=-α_1*\frac{\partial \phi}{\partial y}*w_2*...w_n*A_2'*A_3'*...*A_n'$
@@ -264,12 +264,12 @@ _class: semititle
 _class: semititle
 -->
 
-# 勾配消失問題の解決
+# 勾配消失問題の解決(ゴール！)
 
 - ディープラーニングとは
 - 学習の仕方
 - 勾配消失問題
-- **勾配消失問題の解決**
+- **勾配消失問題の解決(ゴール！)**
 
 ---
 # 勾配消失問題を解決する関数
@@ -290,7 +290,7 @@ _class: semititle
 # 勾配消失問題を解決する関数
 
 
-![bg fit right:40%](img/vanishing_gradient_problem.dio.png)
+![bg fit right:40%](img/vanishing_gradient_problem.drawio.svg)
 
 - 第1層のパラメータ更新のイメージ(再び)
     $a_{1new}=-α_1*\frac{\partial \phi}{\partial y}*w_2*...w_n*A_2'*A_3'*...*A_n'$
