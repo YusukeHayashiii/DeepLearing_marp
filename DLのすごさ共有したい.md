@@ -4,23 +4,22 @@ theme: sample
 ---
 <!--
 _class: title
-_footer: 'Photo by https://qjweb.jp/feature/69583/'
 -->
 
-![bg brightness:0.3](img/title.webp)
+![bg brightness:0.7](img/for_title.jpg)
 
 # ディープラーニングのすごさを共有したい
+~活性化関数ReLUについて~
 
 ---
 <!--
 paginate: true
 class: slides
-_footer: 'Photo by https://onl.bz/aHENREW'
 -->
 
 # おしながき
 
-![bg right:47% contrast:0.8 brightness:1.1](img/yorenta.png)
+<!-- ![bg right:47% contrast:0.8 brightness:1.1](img/yorenta.png) -->
 
 - ディープラーニングとは
 - 学習の仕方
@@ -48,7 +47,7 @@ _class: semititle
     - 画像認識、機械翻訳、検索、要約、レコメンド、自動運転、物体検知、画像生成、音声認識、AlphaGo、、
 - 余談：画像生成界隈、ガチで22年が転換点ぽい
     - 22年8月：ヤバめのText-to-Imageが複数出現
-Midjourney, StableDiffusion, DALL·E 2
+Midjourney, Stable Diffusion, DALL·E 2
     - 22年9月：Text-to-Video、Text-to-3D、Text-to-Audioが出現
     - 22年10月：Text-to-Image、爆速で発展
     NovelAIの登場、Stable Diffusionは各地でカスタマイズ化
@@ -163,13 +162,13 @@ _class: semititle
 # モデルのパラメータを更新
 
 - 予測値の更新：
-    $y_{new}=y-α*\phi'(y)[yの勾配]$
+    $y_{new}=y-α*\phi'(y)(yの勾配)$
     $y=bx_1+3=b(ax+5)+3$
     →パラメータ$a,b$を更新すれば、予測値$y$も更新される
 - パラメータの更新：それぞれの勾配を使う
-    - $b_{new}=b-α_b*\phi'(y)[bの勾配]$
-    - $a_{new}=a-α_a*\phi'(y)[aの勾配]$
-    →？？？
+    - $b_{new}=b-α_b*\phi'(y)(bの勾配)$
+    - $a_{new}=a-α_a*\phi'(y)(aの勾配)$
+    →全部$\phi'(y)$？？
 ###### 偏微分：その関数を、色々な変数で微分する
 $y$を$a$で微分：$\frac{\partial y}{\partial a}$、$y$を$b$で微分：$\frac{\partial y}{\partial b}$
 
@@ -302,7 +301,7 @@ _class: semititle
     全8層からなる
 ###### この頃からとてつもない技術発展がはじまっていく—
 - VGGNet(2014)：全19層。様々なモデルに応用されるベース的な立ち位置に
-- GoogLeNet(2015)；全22層。情報を圧縮し効率化に成功
+- GoogLeNet(2015)：全22層。情報を圧縮し効率化に成功
 - ResNet(2015)：全152層。今までと段違いの深さになった
 - Transformer(2017)：自然言語処理分野でのブレイクスルー。話題の画像生成分野でも使われている
 - BERT(2018)：Transformerを活用したモデル。少しのデータで良いモデルが作れる
@@ -322,9 +321,9 @@ _class: semititle
 ---
 # 参考(画像生成系)
 - [MIdjourney](https://www.midjourney.com/home/)
-- [StableDiffusion](https://github.com/CompVis/stable-diffusion)
+- [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
 - [DALL·E 2](https://openai.com/dall-e-2/)
-- [界隈の人のツイート](https://twitter.com/alfredplpl/status/1575601050135863296)
+- [Text-to-Audio](https://felixkreuk.github.io/text2audio_arxiv_samples/)
 - [Text-to-Video](https://makeavideo.studio/)
 - [Text-to-3D](https://dreamfusionpaper.github.io/)
 - [日刊 画像生成AI](https://note.com/yamkaz/all)

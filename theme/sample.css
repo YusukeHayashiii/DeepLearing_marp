@@ -2,8 +2,14 @@
 
 @import 'default';
 
+section.title {
+    color: whitesmoke;
+    background-color: #696969;
+    text-align: center;
+}
+
 section.title h1 {
-    color: #DDDDDD;
+    color: whitesmoke;
     text-align: center;
 }
 
