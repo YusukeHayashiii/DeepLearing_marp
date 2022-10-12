@@ -4,6 +4,7 @@ theme: sample
 ---
 <!--
 _class: title
+footer: by @tree__and__tree
 -->
 
 ![bg brightness:0.7](img/for_title.jpg)
